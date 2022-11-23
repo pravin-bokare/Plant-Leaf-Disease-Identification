@@ -1,0 +1,6 @@
+__future__
+numpy
+tensorflow
+flask
+werkzeug
+matplotlib
