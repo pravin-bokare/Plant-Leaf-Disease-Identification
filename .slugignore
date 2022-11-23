@@ -1,3 +1,0 @@
-$ heroku repo:gc -a appname
-$ heroku repo:purge_cache -a appname
-$ heroku repo:rebuild -a appname
