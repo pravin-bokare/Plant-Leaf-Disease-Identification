@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.python.keras import models
-from matplotlib import pyplot as plt
 import numpy as np
 
 from keras.models import load_model
@@ -111,19 +110,6 @@ def predict(model, img):
     return predicted_class, confidence
 
 
-plt.figure(figsize=(15, 15))
-for images, labels in test_dataset.take(1):
-    for i in range(9):
-        ax = plt.subplot(3, 3, i + 1)
-        plt.imshow(images[i].numpy().astype("uint8"))
-
-        predicted_class, confidence = predict(model, images[i].numpy())
-        actual_class = class_names[labels[i]]
-
-        plt.title(f"Actual: {actual_class},\n Predicted: {predicted_class}.\n Confidence: {confidence}%")
-
-        plt.axis("off")
-plt.show()
 
 model_version = 1
 
