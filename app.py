@@ -1,15 +1,15 @@
-from __future__ import division, print_function
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 
-# Flask utils
 from flask import Flask, request, render_template
 from werkzeug.utils import secure_filename
 
-import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 app = Flask(__name__)
 
