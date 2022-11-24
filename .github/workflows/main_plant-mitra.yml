@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Plant-Mitra'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_496805D83BD547D5B8D221384D74CAE0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6B387574B9214CFC9257FD2DB2BE2019 }}
