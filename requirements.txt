@@ -1,4 +1,0 @@
-numpy
-tflite
-flask
-werkzeug
