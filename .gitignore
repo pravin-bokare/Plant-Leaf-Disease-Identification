@@ -1,1 +1,9 @@
 SQLite3
+matplotlib
+google-auth-oauthlib
+google-pasta
+tensorboard
+MarkupSafe-2.1.1
+absl-py-1.3.0
+astunparse-1.6.3
+cachetools-5.2.0
