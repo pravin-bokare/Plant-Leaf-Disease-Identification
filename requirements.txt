@@ -1,6 +1,6 @@
 __future__
 numpy
-tensorflow
+tensorflow-cpu
 flask
 werkzeug
 matplotlib
